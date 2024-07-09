@@ -56,7 +56,8 @@ body {
     background-image: url(img/bc.jfif);
     background-size: cover;
     background-position: center;
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-color: rgb(254, 170, 199);
 }
 
 html, body {
