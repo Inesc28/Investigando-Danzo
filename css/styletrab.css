@@ -1,3 +1,4 @@
+
 h1 {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.607);
@@ -10,11 +11,12 @@ h1 {
 }
 
 body {
-    background-image: url(img/bc.jfif);
+    background-image: url(/InvestigandoDanzo.io/img/bc.jfif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(254, 170, 199);
+    background-color: rgb(254, 170, 199);;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html, body {
@@ -30,6 +32,11 @@ nav {
     width: 100%; 
     margin: 0; 
     padding: 0;
+}
+
+p {
+    text-align: justify;
+    margin-top: 10%;
 }
 
 .ul {
@@ -71,29 +78,17 @@ nav {
     height: auto;
     display: flex;
     margin: 0 auto;
+    margin-top: 8%;
     
-}
-
-.container2 {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.401);
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 2%;
 }
 
 
 iframe {
     border-radius: 20px;
+    margin-top: 8%;
 }
 
-footer {
-    background-color: #000000; 
-    color: white; 
-    padding: 20px 0; 
-    font-family: 'Arial', sans-serif;
-}
+
 
 .Formato {
     width: 90%;
@@ -110,4 +105,11 @@ footer {
     .Mobile {
         display: none;
     }
+}
+
+footer {
+    background-color: #000000; 
+    color: white; 
+    padding: 1px 0; 
+    font-family: 'Arial', sans-serif;
 }
